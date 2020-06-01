@@ -1,0 +1,30 @@
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="tab.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+                $(".con-img img").click(function(){
+                  var imageUrl = $(this).attr("src");
+                  $(".con-back").css("display","block");
+                  $(".con-back").css("backgroundImage",'url(' + imageUrl + ')');
+                });
+              });
+         </script>
+</head>
+     <body>
+      <div class="con-img text-center container ">
+        <img src="fire.jpg">
+        <img src="space.jpg">
+        <img src="night.jpg">
+        <img src="blue.jpg">
+        <img src="landscape.jpg">
+        <img src="moon.jpg">
+        <img src="flower.jpg">
+        <img src="mountain.jpg">
+      </div>
+      
+      <div class="con-back container"></div>
+      
+    </body>
+</html>
