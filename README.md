@@ -1,1 +1,0 @@
-# Javascript-Image_tabs
